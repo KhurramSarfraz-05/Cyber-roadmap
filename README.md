@@ -3,7 +3,8 @@
 My 2-month journey to become eligible for a cybersecurity fresher role (Penetration Testing / Red Teaming).
 
 ## About me
-CS student | React and Java projects | Learning offensive security
+## About me
+Cybersecurity student focused on offensive security. Building hands-on skills in penetration testing, network and web application security through legal labs (TryHackMe, HTB, personal VMs).
 
 ## Progress
 - [ ] Weeks 1-2: Networking + Linux
