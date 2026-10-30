@@ -49,4 +49,22 @@ Cybersecurity student focused on offensive security. Building hands-on skills in
 - [ ] Writeup #1: complete recon report for Metasploitable 2 (findings table ready, write-up pending)
 
 ## Key findings (Metasploitable 2 recon) — summary
-11+ findings identified through nmap, NSE scripts, and nikto, including an outdated FTP service with a known backdoor,
+11+ findings identified through nmap, NSE scripts, and nikto, including an outdated FTP service with a known backdoor, outdated kernel and web stack, exposed configuration/debug files, and weak SSL/TLS configuration. Full details in `05-writeups/`.
+
+## Lab setup
+| Machine | Role | Network |
+|---|---|---|
+| Kali Linux | Attacker | NAT + Host-only |
+| Metasploitable 2 | Intentionally vulnerable target | Host-only (isolated) |
+
+The vulnerable VM is never exposed to a real network.
+
+## Folders
+- `01-networking/` : IP, ports, DNS, TCP/UDP notes
+- `02-linux/` : commands, permissions, bash
+- `03-web-security/` : OWASP Top 10, SQLi, Burp
+- `04-tools/` : nmap, gobuster, Metasploit cheatsheets
+- `05-writeups/` : lab and CTF writeups
+- `06-projects/` : small scripts and labs
+
+> All work is done in legal environments only: my own VMs, OverTheWire, CTF platforms, and targets I have written permission to test.
