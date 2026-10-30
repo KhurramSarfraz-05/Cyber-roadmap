@@ -1,18 +1,18 @@
 # Cyber Roadmap
 
-My 2-month journey to become eligible for a cybersecurity fresher role (Penetration Testing / Red Teaming).
+My journey to become eligible for a cybersecurity fresher role (Penetration Testing / Red Teaming).
 
 ## About me
 Cybersecurity student focused on offensive security. Building hands-on skills in penetration testing, network and web application security through free, legal labs (personal VMs, OverTheWire, picoCTF).
 
 ## Progress
 - [x] Phase 1: Networking fundamentals
-- [x] Week 2: Linux + Pentest Methodology + Recon/Scanning (Days 1-6 complete)
-- [ ] Weeks 3-4: Web Security + Burp Suite (deep dive)
-- [ ] Weeks 5-6: Tools + CTFs / VulnHub machines
-- [ ] Weeks 7-8: Portfolio and projects
+- [x] Phase 2: Linux + Pentest Methodology + Recon/Scanning
+- [ ] Phase 3: Web Security + Burp Suite (deep dive)
+- [ ] Phase 4: Tools + CTFs / VulnHub machines
+- [ ] Phase 5: Portfolio and projects
 
-## Week 2 progress (Linux + Recon)
+## Phase 2 progress (Linux + Recon)
 
 ### Linux (all 14 topics covered)
 - [x] Basics and kernel, terminal navigation, file system hierarchy
