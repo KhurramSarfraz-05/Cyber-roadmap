@@ -1,4 +1,4 @@
-# Cyber Roadmap
+# offensive-security-journey
 
 My journey to become eligible for a cybersecurity fresher role (Penetration Testing / Red Teaming).
 
