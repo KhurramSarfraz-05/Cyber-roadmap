@@ -3,7 +3,7 @@
 My journey to become eligible for a cybersecurity fresher role (Penetration Testing / Red Teaming).
 
 ## About me
-Cybersecurity student focused on offensive security. Building hands-on skills in penetration testing, network and web application security through free, legal labs (personal VMs, OverTheWire, picoCTF).
+Cybersecurity student focused on offensive security. Building hands-on skills in penetration testing, network and web application security through free, legal labs (personal VMs, OverTheWire, HackTheBox).
 
 ## Progress
 - [x] Phase 1: Networking fundamentals
@@ -37,19 +37,18 @@ Cybersecurity student focused on offensive security. Building hands-on skills in
 - [x] gobuster and ffuf directory enumeration
 - [x] Burp Suite: proxy setup and request interception (intro)
 - [x] searchsploit + CVE lookup for identified service versions
+- [x] **Writeup #1 complete:** full recon report (`05-writeups/metasploitable2-recon.md`)
 
 ### Practice labs
 - [x] OverTheWire Bandit: levels 0-12
 - [ ] OverTheWire Bandit: levels 13-20
+- [x] HackTheBox: 3 challenges solved
 
 ### Projects
 - [x] Custom Python TCP port scanner (`06-projects/portscanner.py`)
 
-### Pending
-- [ ] Writeup #1: complete recon report for Metasploitable 2 (findings table ready, write-up pending)
-
 ## Key findings (Metasploitable 2 recon) — summary
-11+ findings identified through nmap, NSE scripts, and nikto, including an outdated FTP service with a known backdoor, outdated kernel and web stack, exposed configuration/debug files, and weak SSL/TLS configuration. Full details in `05-writeups/`.
+14 findings identified through nmap, NSE scripts, and nikto, including an outdated FTP service with a known backdoor, an outdated kernel and web stack, exposed configuration/debug files, publicly accessible database admin panel, and weak SSL/TLS configuration. Full details and remediation recommendations in `05-writeups/metasploitable2-recon.md`.
 
 ## Lab setup
 | Machine | Role | Network |
@@ -67,4 +66,4 @@ The vulnerable VM is never exposed to a real network.
 - `05-writeups/` : lab and CTF writeups
 - `06-projects/` : small scripts and labs
 
-> All work is done in legal environments only: my own VMs, OverTheWire, CTF platforms, and targets I have written permission to test.
+> All work is done in legal environments only: my own VMs, OverTheWire, HackTheBox, and targets I have written permission to test.
